@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Name Picker</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <h1 class="mt-5">Name Picker</h1>
+    <div class="mb-3">
+        <input type="text" id="nameBox" class="form-control" placeholder="Enter a name">
+    </div>
+    <button id="addNameBtn" class="btn btn-primary mb-3">Add Name</button>
+    <div id="nameDisplayDiv" class="mb-3">
+        <h2>Names:</h2>
+        <ul id="nameList" class="list-group"></ul>
+    </div>
+    <button id="pickRandomNameBtn" class="btn btn-success mb-3">Pick a Random Name</button>
+    <div id="selectedNameDiv" class="mb-5">
+        <h2>Selected Name:</h2>
+        <p id="selectedName"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
